@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tangogql
-  version: "2.2.5"
+  version: "2.2.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tangogql-${{ version }}.tar.gz
-  sha256: fd192fd91ba2fc17e6afbed4a48b7334383befab46e745bd263739a682cd5266
+  sha256: bfd2a08140c92ad0119c3d586ddaf7ecdeaad584047a098961f965ffaf9717ea
 
 build:
   number: 0
